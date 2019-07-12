@@ -1,0 +1,58 @@
+body {
+    background-image: url(https://images.unsplash.com/photo-1520262454473-a1a82276a574?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80);
+  /* The image used */
+ 
+
+  /* Full height */
+  
+
+  /* Center and scale the image nicely */
+  
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+nav {
+ display: flex;
+ justify-content: space-around;
+ background-color: gainsboro;
+ align-items: center;
+ min-height: 8vh;
+ font-family: 'Nunito Sans', sans-serif;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+
+}
+.nav-links li {
+   list-style: none;
+}
+.nav-links a {
+    color: aliceblue;
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.menu div{
+width: 25px;
+height: 3px;
+background-color: azure;
+margin: 5px;
+}
+ .menu {
+     display: none;
+
+
+
